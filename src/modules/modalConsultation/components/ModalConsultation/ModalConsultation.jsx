@@ -9,10 +9,8 @@ const ModalConsultation = () => {
   const setModal = useModal();
   const closeModal = useCallback(() => setModal(), [setModal]);
 
-  const height =
-    parseInt(getComputedStyle(document.querySelector('body')).height) * 0.9;
   return (
-    <div style={{ height: `${height}px` }} className={s.modal}>
+    <div className={s.modal}>
       <div className={s.container}>
         <div className={s.imgContainer}>
           <MyPicture />
