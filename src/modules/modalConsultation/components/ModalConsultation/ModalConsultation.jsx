@@ -10,7 +10,7 @@ const ModalConsultation = () => {
   const closeModal = useCallback(() => setModal(), [setModal]);
 
   return (
-    <div style={{ paddingBottom: 60 }}>
+    <div style={{ paddingBottom: 70 }}>
       <div className={s.modal}>
         <div className={s.container}>
           <div className={s.imgContainer}>
