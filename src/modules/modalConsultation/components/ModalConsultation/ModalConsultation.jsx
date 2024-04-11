@@ -10,7 +10,7 @@ const ModalConsultation = () => {
   const closeModal = useCallback(() => setModal(), [setModal]);
 
   return (
-    <div>
+    <div style={{ paddingBottom: 80 }}>
       <div className={s.modal}>
         <div className={s.container}>
           <button className={s.btnClose} onClick={closeModal}>
