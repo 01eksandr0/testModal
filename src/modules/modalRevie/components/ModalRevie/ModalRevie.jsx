@@ -9,7 +9,7 @@ const ModalRevie = () => {
   const setModal = useModal();
   const closeModal = useCallback(() => setModal(), [setModal]);
   return (
-    <div>
+    <div style={{ paddingBottom: 40 }}>
       <div className={s.modal}>
         <div className={s.container}>
           <button className={s.btnClose} onClick={closeModal}>
