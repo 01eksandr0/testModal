@@ -40,9 +40,9 @@
   justify-content: center;
   font-size: 30px;
   transition: transform $animation-duration $animation-time-function;
-  &:hover,
-  &:focus,
-  &:active {
+  &:hover > svg,
+  &:focus > svg,
+  &:active > svg {
     background-color: transparent;
   }
 }
