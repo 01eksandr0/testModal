@@ -40,6 +40,11 @@
   justify-content: center;
   font-size: 30px;
   transition: transform $animation-duration $animation-time-function;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+  }
 }
 
 .text {
